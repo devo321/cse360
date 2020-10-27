@@ -1,0 +1,6 @@
+SET searchVal = x
+SET i = 0
+WHILE( array[i] != x ){
+    i++
+}
+PRINT array[i]

@@ -1,0 +1,16 @@
+SET searchVal = x
+SET flag == TRUE
+
+WHILE( TRUE ){
+    IF( node.val() == x){
+        SET flag == FALSE
+    }
+    ELIF( node.val() < x ){
+        node = node.right()
+    }
+    ELIF( node.val() > x ){
+        node = node.left()
+    } 
+}
+
+return node.val()

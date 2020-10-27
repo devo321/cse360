@@ -1,0 +1,9 @@
+SET maxVal = 0
+INPUT value
+WHILE( value != 0){
+    IF( value > maxVal){
+        SET maxVal = value
+    }
+    INPUT value
+}
+PRINT maxVal
